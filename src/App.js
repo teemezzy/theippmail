@@ -6,12 +6,13 @@ import Footer from './component/Footer'
 import News from './component/pages/News'
 import AboutUs from './component/pages/AboutUs'
 import ContactUs from './component/pages/ContactUs'
-
+import './App.css'
 
 const App = () => {
   return (
     <>
       <NavBar />
+
       <Switch>
         <Route exact path='/'>
           <Main />
@@ -26,6 +27,7 @@ const App = () => {
           <ContactUs />
         </Route>
       </Switch>
+      
       <Footer />
     </>
   )

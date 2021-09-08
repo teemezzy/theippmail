@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light'>
       <div className='container-fluid'>
-        <Link className='navbar-brand mx-5' to='/'>
+        <Link className='navbar-brand' to='/'>
           <img src={Logo} alt='' className='w-100' />
         </Link>
         <button
