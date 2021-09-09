@@ -4,7 +4,7 @@ import Logo from './asset/logo.svg'
 
 const NavBar = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light'>
+    <nav className='navbar navbar-expand-lg navbar-light fixed-top '>
       <div className='container-fluid'>
         <Link className='navbar-brand' to='/'>
           <img src={Logo} alt='' className='w-100' />
@@ -21,7 +21,7 @@ const NavBar = () => {
           <span className='navbar-toggler-icon'></span>
         </button>
         <div className='collapse navbar-collapse' id='navbarTogglerDemo02'>
-          <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
+          <ul className='navbar-nav me-auto mb-2 mb-lg-0 mx-md-5 px-md-5'>
             <li className='nav-item'>
               <Link className='nav-link active' aria-current='page' to='/'>
                 Home
@@ -45,12 +45,12 @@ const NavBar = () => {
           </ul>
           <form className='d-flex mx-5'>
             <input
-              className='form-control me-2'
+              className='form-control me-2 '
               type='search'
               placeholder='Search'
               aria-label='Search'
             />
-            <button className='btn btn-outline-success' type='submit'>
+            <button className='btn btn-rounded btn-success' type='submit'>
               Search
             </button>
           </form>

@@ -8,9 +8,9 @@
     --clr-white-2: hsl(0, 0%, 98%);
     --clr-white-3: hsl(0, 0%, 95%);
     /* Shades of Green */
-    --clr-green-1: hsl(111, 86%, 55%);
-    --clr-green-2: hsl(111, 86%, 45%);
-    --clr-green-3: hsl(111, 86%, 39%);
+    --clr-green-1: hsl(152, 86%, 55%);
+    --clr-green-2: hsl(152, 86%, 45%);
+    --clr-green-3: hsl(151.6, 100%, 33.14%);
     /* Shades of Red */
 
     /* Shades of Black */
@@ -31,10 +31,58 @@
 
 body {
     font-family: 'Noto Sans TC',
-    sans-serif;
-    padding: 0 5rem 0 5rem;
-    
-    
-    
+        sans-serif;
 
+
+}
+
+nav {
+    background: var(--clr-white-1);
+    font-weight: 800;
+}
+
+
+.cc-carousel {
+    width: 70%;
+    height: 70%;
+    object-fit: fill;
+}
+
+.cc-home {
+  
+    transform: translateY(-10rem);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+
+
+
+}
+
+.onlinemedia {
+    width: 20rem;
+
+}
+
+.mobilepost {
+    width: 20rem;
+
+}
+
+.contact{
+    height: 100vh;
+    margin-top: 10rem;
+}
+
+
+.about_us {
+    padding: 8rem 8rem 0 8rem;
+
+}
+
+footer {
+    background: var(--clr-green-3);
+    height: 50vh;
 }
