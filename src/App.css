@@ -38,8 +38,15 @@ body {
 
 nav {
     background: var(--clr-white-1);
-    font-weight: 800;
+    
 }
+
+nav .container-fluid ul li{
+    font-size: 20px;
+    font-weight: 600;
+
+} 
+
 
 
 .cc-carousel {
@@ -50,14 +57,11 @@ nav {
 
 .cc-home {
   
-    transform: translateY(-10rem);
+    transform: translateX(-10rem);
     position: absolute;
     left: 0px;
     top: 0px;
     z-index: -1;
-
-
-
 
 }
 
@@ -72,11 +76,30 @@ nav {
 }
 
 .contact{
-    height: 100vh;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5rem 5rem 10rem 5rem;
+}
+.contact-top{
+    background-image: url("./component/asset/photo-1485770958101-9dd7e4ea6d93.jfif");
+    /* width: 100vw; */
+    color: var(--clr-white-1)
+
+}
+
+.contact-head{
+    height: 140vh;
     padding-top: 8rem;
     text-align: center;
 }
 
+.contact-body{
+    width: 50%;
+    border: 1px solid gray;
+    padding:2rem;
+}
+    
 
 .about_us {
     padding: 8rem 8rem 0 8rem;
@@ -85,5 +108,9 @@ nav {
 
 footer {
     background: var(--clr-green-3);
-    height: 50vh;
+    
+}
+.footer-text{
+    margin-left: 5rem;
+
 }

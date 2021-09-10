@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer className=' text-center text-light text-lg-start'>
+    <footer className=' text-center text-light text-lg-start pt-3'>
       {/* Grid container */}
       <div className='container p-4 pb-0 text-center'>
         <form action='' className=''>
@@ -11,7 +11,7 @@ const Footer = () => {
           <div className='row'>
             {/* <!--Grid column--> */}
             <div className='col-auto mb-4 mb-md-0'>
-              <p className='pt-2'>
+              <p className='pt-2 footer-text'>
                 <strong>Sign up for our newsletter</strong>
               </p>
             </div>
@@ -101,7 +101,7 @@ const Footer = () => {
       </div>
 
       {/* <!-- Copyright --> */}
-      <div className='text-center p-5'>© 2021 Copyright: THE IPPMAIL</div>
+      <div className='text-center p-3'>© 2021 Copyright: THE IPPMAIL</div>
       {/* <!-- Copyright --> */}
     </footer>
   )
