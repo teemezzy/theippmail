@@ -35,7 +35,7 @@ const ContactUs = () => {
                 type='text'
               />
             </div>
-            <div className='-field'>
+            <div className='input-field'>
               <label className='form-label' for='email'>
                 Email
               </label>
@@ -47,7 +47,7 @@ const ContactUs = () => {
                 type='email'
               />
             </div>
-            <div className='-field'>
+            <div className='input-field'>
               <label className='form-label' for='exampleFormControlTextarea1'>
                 Message
               </label>
