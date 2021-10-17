@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Carousel1 from './asset/carousel1.jpg'
 import Carousel2 from './asset/carousel2.jpg'
 import Carousel3 from './asset/carousel3.jpg'
 import OnlineMedia from './asset/onlinemedia.svg'
 import MobilePost from './asset/mobilepost.svg'
-const Main = () => {
+
+
+const Main = (props) => {
+  const [post, setPost] = useState('')
+  const [date, setDate] = useState('')
+
   return (
     <>
       <div
@@ -67,7 +72,9 @@ const Main = () => {
           magnam nobis eius nam illum sit, quisquam aspernatur accusantium quas,
           unde laudantium. Eius, reprehenderit.
         </p>
-        <div>this.props.title </div>
+
+        <div>{}</div>
+        <div>{}</div>
       </div>
 
       <article className='d-flex justify-content-center pt-5 mt-5 ill-1'>
