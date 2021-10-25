@@ -52,7 +52,18 @@ const AboutUs = () => {
         </p>
 
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, error hic. Exercitationem illo est earum dignissimos, consequuntur, deleniti libero odit totam nihil, dolores nesciunt enim voluptatum incidunt repellendus rerum maxime. Nam explicabo impedit reprehenderit! Magni itaque veritatis aperiam recusandae eius perferendis doloribus amet, iure delectus nisi maiores consequatur sit similique quia quod eaque quisquam laudantium tempora aut explicabo et earum, repudiandae dolorum. Saepe, voluptatum at sapiente cumque maiores harum officiis quod blanditiis incidunt voluptatibus repellendus facilis fugit sequi, accusamus veniam tempora perspiciatis nihil! Consectetur asperiores quas illo cupiditate, autem quis, necessitatibus delectus ipsum nemo doloribus cum accusantium, iusto corrupti animi!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, error
+          hic. Exercitationem illo est earum dignissimos, consequuntur, deleniti
+          libero odit totam nihil, dolores nesciunt enim voluptatum incidunt
+          repellendus rerum maxime. Nam explicabo impedit reprehenderit! Magni
+          itaque veritatis aperiam recusandae eius perferendis doloribus amet,
+          iure delectus nisi maiores consequatur sit similique quia quod eaque
+          quisquam laudantium tempora aut explicabo et earum, repudiandae
+          dolorum. Saepe, voluptatum at sapiente cumque maiores harum officiis
+          quod blanditiis incidunt voluptatibus repellendus facilis fugit sequi,
+          accusamus veniam tempora perspiciatis nihil! Consectetur asperiores
+          quas illo cupiditate, autem quis, necessitatibus delectus ipsum nemo
+          doloribus cum accusantium, iusto corrupti animi!
         </p>
       </article>
     </div>

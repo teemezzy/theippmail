@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+:root {
+  --max-width: 1440px;
+  --width: 100%;
+  /* Shades of White */
+  --clr-white-1: hsl(0, 0%, 100%);
+  --clr-white-2: hsl(0, 0%, 98%);
+  --clr-white-3: hsl(0, 0%, 95%);
+  /* Shades of Green */
+  --clr-green-1: hsl(152, 86%, 55%);
+  --clr-green-2: hsl(152, 86%, 45%);
+  --clr-green-3: hsl(151.6, 100%, 33.14%);
+  /* Shades of Red */
+  /* Shades of Black */
+  --clr-black-1: hsl(0, 0%, 0%);
+  --clr-black-2: hsl(0, 0%, 6%);
+  --clr-black-3: hsl(0, 0%, 9.9%);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  max-width: var(--max-width);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+@media (min-width: 576px) {
+  nav .container-fluid ul li {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .cc-home {
+    background-image: url("./component/asset/hero-image.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 18rem;
+    margin-top: 0rem;
+    color: var(--clr-white-1);
+    /* transform: translateX(-10rem);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; */
+  }
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5rem 5rem 10rem 5rem;
+    color: var(--clr-white-1);
+  }
+  .contact-top {
+    /* width: 100vw; */
+    color: var(--clr-white-1);
+  }
+  .contact-head {
+    height: 140vh;
+    padding-top: 8rem;
+    text-align: center;
+    background-image: url("./component/asset/contactus.jpg");
+    background-size: cover;
+    color: var(--clr-white-1);
+  }
+  .contact-body {
+    width: 50%;
+    border: 1px solid gray;
+    padding: 2rem;
+  }
+  .about_us {
+    padding: 8rem 8rem 0 8rem;
+  }
+  footer {
+    background: var(--clr-green-3);
+  }
+  .footer-text {
+    margin-left: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  nav .container-fluid ul li {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .cc-home {
+    background-image: url("./component/asset/hero-image.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 18rem;
+    margin-top: 0rem;
+    color: var(--clr-white-1);
+    /* transform: translateX(-10rem);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; */
+  }
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5rem 5rem 10rem 5rem;
+    color: var(--clr-white-1);
+  }
+  .contact-top {
+    /* width: 100vw; */
+    color: var(--clr-white-1);
+  }
+  .contact-head {
+    height: 140vh;
+    padding-top: 8rem;
+    text-align: center;
+    background-image: url("./component/asset/contactus.jpg");
+    background-size: cover;
+    color: var(--clr-white-1);
+  }
+  .contact-body {
+    width: 50%;
+    border: 1px solid gray;
+    padding: 2rem;
+  }
+  .about_us {
+    padding: 8rem 8rem 0 8rem;
+  }
+  footer {
+    background: var(--clr-green-3);
+  }
+  .footer-text {
+    margin-left: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  nav .container-fluid ul li {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .cc-home {
+    background-image: url("./component/asset/hero-image.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 18rem;
+    margin-top: 0rem;
+    color: var(--clr-white-1);
+    /* transform: translateX(-10rem);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; */
+  }
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5rem 5rem 10rem 5rem;
+    color: var(--clr-white-1);
+  }
+  .contact-top {
+    /* width: 100vw; */
+    color: var(--clr-white-1);
+  }
+  .contact-head {
+    height: 140vh;
+    padding-top: 8rem;
+    text-align: center;
+    background-image: url("./component/asset/contactus.jpg");
+    background-size: cover;
+    color: var(--clr-white-1);
+  }
+  .contact-body {
+    width: 50%;
+    border: 1px solid gray;
+    padding: 2rem;
+  }
+  .about_us {
+    padding: 8rem 8rem 0 8rem;
+  }
+  footer {
+    background: var(--clr-green-3);
+  }
+  .footer-text {
+    margin-left: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav .container-fluid ul li {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .cc-home {
+    background-image: url("./component/asset/hero-image.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 18rem;
+    margin-top: 0rem;
+    color: var(--clr-white-1);
+    /* transform: translateX(-10rem);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; */
+  }
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5rem 5rem 10rem 5rem;
+    color: var(--clr-white-1);
+  }
+  .contact-top {
+    /* width: 100vw; */
+    color: var(--clr-white-1);
+  }
+  .contact-head {
+    height: 140vh;
+    padding-top: 8rem;
+    text-align: center;
+    background-image: url("./component/asset/contactus.jpg");
+    background-size: cover;
+    color: var(--clr-white-1);
+  }
+  .contact-body {
+    width: 50%;
+    border: 1px solid gray;
+    padding: 2rem;
+  }
+  .about_us {
+    padding: 8rem 8rem 0 8rem;
+  }
+  footer {
+    background: var(--clr-green-3);
+  }
+  .footer-text {
+    margin-left: 5rem;
+  }
+}
+/*# sourceMappingURL=App.css.map */

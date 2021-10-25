@@ -17,7 +17,7 @@
     --clr-black-1: hsl(0, 0%, 0%);
     --clr-black-2: hsl(0, 0%, 6%);
     --clr-black-3: hsl(0, 0%, 9.9%);
-
+    
 }
 
 
@@ -39,7 +39,7 @@ body {
 
 
 
-/* Small devices (landscape phones, 576px and up)  */
+// Small devices (landscape phones, 576px and up) 
 @media (min-width: 576px) {
     nav .container-fluid ul li {
         font-size: 20px;
@@ -47,13 +47,6 @@ body {
 
     }
 
-    .hamburger-icon{
-        color: black !important;
-        border:1px solid black;
-       
-
-    }
-
     .cc-home {
         background-image: url("./component/asset/hero-image.jpg");
         background-size: cover;
@@ -113,78 +106,78 @@ body {
         margin-left: 5rem;
 
     }
-}
+    }
 
-/* Medium devices (tablets, 768px and up) */
+// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    nav .container-fluid ul li {
-        font-size: 20px;
-        font-weight: 600;
+   nav .container-fluid ul li {
+       font-size: 20px;
+       font-weight: 600;
 
-    }
+   }
 
-    .cc-home {
-        background-image: url("./component/asset/hero-image.jpg");
-        background-size: cover;
-        height: 100vh;
-        padding: 18rem;
-        margin-top: 0rem;
-        color: var(--clr-white-1);
+   .cc-home {
+       background-image: url("./component/asset/hero-image.jpg");
+       background-size: cover;
+       height: 100vh;
+       padding: 18rem;
+       margin-top: 0rem;
+       color: var(--clr-white-1);
 
-        /* transform: translateX(-10rem);
+       /* transform: translateX(-10rem);
     position: absolute;
     left: 0px;
     top: 0px;
     z-index: -1; */
 
-    }
+   }
 
-    .contact {
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
-        padding: 5rem 5rem 10rem 5rem;
-        color: var(--clr-white-1)
-    }
+   .contact {
+       display: flex;
+       justify-content: center;
+       justify-content: space-between;
+       padding: 5rem 5rem 10rem 5rem;
+       color: var(--clr-white-1)
+   }
 
-    .contact-top {
-        /* width: 100vw; */
-        color: var(--clr-white-1)
-    }
+   .contact-top {
+       /* width: 100vw; */
+       color: var(--clr-white-1)
+   }
 
-    .contact-head {
-        height: 140vh;
-        padding-top: 8rem;
-        text-align: center;
-        background-image: url("./component/asset/contactus.jpg");
-        background-size: cover;
-        color: var(--clr-white-1)
-    }
+   .contact-head {
+       height: 140vh;
+       padding-top: 8rem;
+       text-align: center;
+       background-image: url("./component/asset/contactus.jpg");
+       background-size: cover;
+       color: var(--clr-white-1)
+   }
 
-    .contact-body {
-        width: 50%;
-        border: 1px solid gray;
-        padding: 2rem;
-    }
+   .contact-body {
+       width: 50%;
+       border: 1px solid gray;
+       padding: 2rem;
+   }
 
 
-    .about_us {
-        padding: 8rem 8rem 0 8rem;
+   .about_us {
+       padding: 8rem 8rem 0 8rem;
 
-    }
+   }
 
-    footer {
-        background: var(--clr-green-3);
+   footer {
+       background: var(--clr-green-3);
 
-    }
+   }
 
-    .footer-text {
-        margin-left: 5rem;
+   .footer-text {
+       margin-left: 5rem;
 
-    }
+   }
 }
 
-/* Large devices (desktops, 992px and up) */
+// Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     nav .container-fluid ul li {
         font-size: 20px;
@@ -251,10 +244,10 @@ body {
         margin-left: 5rem;
 
     }
-
+    
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+// Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     nav .container-fluid ul li {
         font-size: 20px;

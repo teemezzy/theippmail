@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from './asset/logo.svg'
+import { FaBars } from 'react-icons/fa'
 
 const NavBar = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light fixed-top '>
+    <nav className='navbar navbar-expand-lg navbar-light'>
       <div className='container-fluid'>
         <Link className='navbar-brand' to='/'>
           <img src={Logo} alt='' className='w-100' />
@@ -18,7 +19,7 @@ const NavBar = () => {
           aria-expanded='false'
           aria-label='Toggle navigation'
         >
-          <span className='navbar-toggler-icon'></span>
+          <span className='navbar-toggler-icon hamburger-icon'>{FaBars}</span>
         </button>
         <div className='collapse navbar-collapse' id='navbarTogglerDemo02'>
           <ul className='navbar-nav me-auto mb-2 mb-lg-0 mx-md-5 px-md-5'>
