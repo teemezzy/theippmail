@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light'>
       <div className='container-fluid'>
-        <Link className='navbar-brand' to='/'>
+        <Link className='logo' to='/'>
           <img src={Logo} alt='' className='w-100' />
         </Link>
         <button
@@ -22,7 +22,7 @@ const NavBar = () => {
           <span className='navbar-toggler-icon hamburger-icon'>{FaBars}</span>
         </button>
         <div className='collapse navbar-collapse' id='navbarTogglerDemo02'>
-          <ul className='navbar-nav me-auto mb-2 mb-lg-0 mx-md-5 px-md-5'>
+          <ul className='navbar-nav me-auto mb-2 mb-md-0 text-align-center'>
             <li className='nav-item'>
               <Link className='nav-link active' aria-current='page' to='/'>
                 Home

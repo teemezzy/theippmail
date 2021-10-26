@@ -1,9 +1,20 @@
 import React, { useState } from 'react'
-// import firebase from './component/Firebase'
+import firebasedb from '../firebase'
 
 const ContactUs = () => {
-  const handleSubmit = () => {}
-  const handleInputChange = () => {}
+  const [state, setState] = useState({
+    name: '',
+    email: '',
+    message: '',
+  })
+  const { name, email, message } = state
+  const handleSubmit = () => {
+    firebasedb.child('contacts')
+  }
+  const handleInputChange = (e) => {
+    let { name, value } = e.target
+    setState({ ...state, [name]: value })
+  }
 
   return (
     <div className='contact-head'>
@@ -49,6 +60,7 @@ const ContactUs = () => {
                 placeholder='Firstname and Lastname'
                 type='text'
                 onChange={handleInputChange}
+                value={name}
               />
             </div>
             <div className='input-field'>
@@ -62,6 +74,7 @@ const ContactUs = () => {
                 placeholder='Email Address'
                 type='email'
                 onChange={handleInputChange}
+                value={email}
               />
             </div>
             <div className='input-field'>
@@ -76,12 +89,14 @@ const ContactUs = () => {
                 placeholder='Enter Your Message'
                 id='exampleFormControlTextarea1'
                 onChange={handleInputChange}
+                value={message}
               ></textarea>
             </div>
             <button
               type='submit'
               className='btn btn--theme contact__btn'
               onSubmit={handleSubmit}
+              
             >
               Submit
             </button>

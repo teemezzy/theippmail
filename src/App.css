@@ -127,15 +127,9 @@ body {
         background-image: url("./component/asset/hero-image.jpg");
         background-size: cover;
         height: 100vh;
-        padding: 18rem;
-        margin-top: 0rem;
+        padding: 0;
+        padding-top:26rem;
         color: var(--clr-white-1);
-
-        /* transform: translateX(-10rem);
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1; */
 
     }
 
@@ -186,25 +180,28 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .logo{
+        width: fit-content;
+        margin-right:0rem;
+    }
+    nav{
+        padding:0;
+        margin:0;
+        
+    }
     nav .container-fluid ul li {
         font-size: 20px;
         font-weight: 600;
-
+        
     }
 
     .cc-home {
         background-image: url("./component/asset/hero-image.jpg");
         background-size: cover;
         height: 100vh;
-        padding: 18rem;
-        margin-top: 0rem;
+        padding: 0;
+        padding-top:26rem;
         color: var(--clr-white-1);
-
-        /* transform: translateX(-10rem);
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1; */
 
     }
 
@@ -256,6 +253,13 @@ body {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    .logo {
+        width: fit-content;
+        margin-right: 5rem;
+        align-items: center;
+        justify-items: center;
+        justify-content:space-between;
+    }
     nav .container-fluid ul li {
         font-size: 20px;
         font-weight: 600;
