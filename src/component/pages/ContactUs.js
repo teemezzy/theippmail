@@ -52,10 +52,12 @@ const ContactUs = () => {
         </div>
 
         <div className='contact-body'>
-          Contact Form
           <form action='#' className='form-contact' onSubmit={handleSubmit}>
             <div className=''>
-              <label className='form-label text-align-left' for='name'>
+              <label
+                className='form-label text-align-left text-light'
+                for='name'
+              >
                 Name
               </label>
               <input
@@ -69,7 +71,7 @@ const ContactUs = () => {
               />
             </div>
             <div className='input-field'>
-              <label className='form-label' for='email'>
+              <label className='form-label text-light' for='email'>
                 Email
               </label>
               <input
@@ -83,7 +85,10 @@ const ContactUs = () => {
               />
             </div>
             <div className='input-field'>
-              <label className='form-label' for='exampleFormControlTextarea1'>
+              <label
+                className='form-label text-light'
+                for='exampleFormControlTextarea1'
+              >
                 Message
               </label>
               <textarea
@@ -97,9 +102,10 @@ const ContactUs = () => {
                 value={message}
               ></textarea>
             </div>
+            <br />
             <button
               type='submit'
-              className='btn btn--theme contact__btn'
+              className='btn btn-rounded btn-success px-5'
               onSubmit={handleSubmit}
             >
               Submit
