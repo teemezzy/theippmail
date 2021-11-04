@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import firebasedb from '../firebase'
+import firebasedb from '../../firebase'
 
 const ContactUs = () => {
   const [state, setState] = useState({
@@ -8,12 +8,17 @@ const ContactUs = () => {
     message: '',
   })
   const { name, email, message } = state
-  const handleSubmit = () => {
-    firebasedb.child('contacts')
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    firebasedb.child('contacts').add({
+        name: name,
+        email: email,
+        message: message,
+      })
   }
   const handleInputChange = (e) => {
     let { name, value } = e.target
-    setState({ ...state, [name]: value })
+    setState({ state, [name]: value })
   }
 
   return (
@@ -57,7 +62,7 @@ const ContactUs = () => {
                 className='form-control'
                 list='datalistOptions'
                 id='exampleDataList'
-                placeholder='Firstname and Lastname'
+                placeholder='Fullname'
                 type='text'
                 onChange={handleInputChange}
                 value={name}
@@ -96,7 +101,6 @@ const ContactUs = () => {
               type='submit'
               className='btn btn--theme contact__btn'
               onSubmit={handleSubmit}
-              
             >
               Submit
             </button>
